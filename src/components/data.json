@@ -1,58 +1,13 @@
-[
-    {
-      "id": "apples",
-      "articleText": [
-        {
-          "type": "h2",
-          "data": "Class: Magnoliopsida, Order: Rosales, Family: Rosaceae, Subfamily: Maloideae, Genus: Malus."
-        }
-      ]
-    },
-    {
-        "id": "oranges",
-        "articleText": [
-          {
-            "type": "h2",
-            "data": "Class: Magnoliopsida, Order: Sapindales, Family: Rutaceae, Genus: Citrus."
-          }
-        ]
-      },
-      {
-        "id": "raspberries",
-        "articleText": [
-          {
-            "type": "h2",
-            "data": "Class: Magnoliopsida, Order: Rosales, Family: Rosaceae, Subfamily: Rosoideae, Genus: Rubus."
-          }
-        ]
-      },
+{
+    "VitaminA": [
+        "Vitamin A is needed for the immune system, vision, and many organs."
+    ],
 
-    {
-        "id": "vitamin A",
-        "articleText": [
-          {
-            "type": "p",
-            "data": "Vitamin A is needed for the immune system, vision, and many organs."
-          }
-        ]
-      },
-      {
-        "id": "vitamin C",
-        "articleText": [
-          {
-            "type": "p",
-            "data": "Vitamin C is needed for bones, cartilage, blood vessels, and neurotransmission."
-          }
-        ]
-      },
-      {
-        "id": "fiber",
-        "articleText": [
-          {
-            "type": "p",
-            "data": "Fiber is needed for digestion and cardiovascular health."
-          }
-        ]
-      }
-  
-  ]
+    "VitaminC": [
+        "Vitamin C is needed for bones, cartilage, blood vessels, and neurotransmission."
+    ],
+
+    "Fiber": [
+        "Fiber is needed for digestion and cardiovascular health."
+    ]
+}

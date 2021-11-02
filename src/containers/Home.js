@@ -3,7 +3,6 @@ import { useState } from "react";
 import React, { useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import FoodCard from "../components/FoodCard";
-import Data from "../components/data.json";
 
 const API_KEY = `b4k4jbf8mzD0ZaMDbcHmBAybfMSOHfhsAA5pFwkM`;
 
@@ -70,7 +69,7 @@ function Home() {
           <nav className="Navigation">
             <a href="/?food=apples">Apple</a>
             <a href="/?food=oranges">Orange</a>
-            <a href="/?food=raspberries">Raspberries</a>
+            <a href="/?food=raspberries">Raspberry</a>
           </nav>
         </header>
         <h1 className="SelectedFood">{food}</h1>
